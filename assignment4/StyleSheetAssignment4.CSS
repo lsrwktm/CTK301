@@ -1,0 +1,146 @@
+h1 {
+  color: orange;
+  background-color: #c5edd1;
+  font-style: italic;
+  font-weight: normal;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+#BLUE {
+  color: blue;
+  background-color: lightblue;
+}
+
+#two00classes {
+color: #de2323;
+background-color: lightgreen;
+}
+
+#three00classes {
+  color: lightblue;
+  background-color: darkblue;
+}
+
+#angy {
+  color: white;
+  background-color: red;
+}
+
+#smol {
+  color: orange;
+  text-transform: lowercase;
+  font-size: 67%;
+}
+
+#beeee {
+  color: black;
+  background-color: yellow;
+}
+
+#rainb {
+  color: black;
+  background: linear-gradient(to right, red , orange , yellow, green, cyan, blue, violet, purple);
+}
+
+#rainblue {
+  color: orange;
+  background: linear-gradient(to right, red , orange , yellow, green, cyan, blue, violet, purple);
+}
+
+#tree {
+  color: #3fe04f;
+  background-color: #3b3321;
+}
+
+.purpleee {
+  color: violet;
+  background-color: #ffebfa;
+  text-align: center;
+}
+
+.NEON {
+  color: orange;
+  background-color: #5eff00;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.Pretty {
+  color: #98d7eb;
+  background-color: #d8a7e8;
+}
+
+.ytterP {
+  color: #d8a7e8;
+  background-color: #98d7eb;
+}
+
+.pinkish {
+    color: orange;
+    background-color: #000000;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.AlyxEnergy {
+  color: orange;
+  background-color: #0400ff;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.grene {
+  color: #2e8f29;
+  background-color: #f0faf0;
+}
+
+.notquitewhiteorblack {
+  color: #8d9699;
+  background-color: #f5f5f5;
+  text-align: justify;
+}
+
+.GAMINGPOG {
+  color: #3cfaf7;
+  background-color: #ff3bc7;
+}
+
+.artsy {
+  color: orange;
+    background:radial-gradient(ellipse at 50%, #FFFFFF 4%, #FF7300 14%, #FFEB3B 24%, #8AFF70 34%, #0AF3DE 44%, #03A9F4 54%, #3F51B5 64%, #673AB7 74%, #B73AAC 84%, #F39DD8 94%);
+    font-style: italic;
+    font-weight: normal;
+}
+
+.future {
+      color: white;
+      background-color: black;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-image: url(backgroundimage.png);
+    }
+
+.boxlinesandsuch {
+    border: 10px solid black;
+    padding: 19px 19px 19px 19px;
+    background-color: white;
+    }
+
+.headerisorange {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
