@@ -1,0 +1,52 @@
+header {
+  background-color: #928cff;
+}
+
+h1 {
+  color: white;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.BlueText {
+  color: blue;
+}
+
+.BoldedOrange {
+  color: orange;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.reddd {
+  color: red;
+  font-weight: bold;
+}
+
+.packing {
+  color: yellow;
+  background-color: darkgreen;
+}
+
+.gren {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: yellow;
+}
+
+#yelling {
+  color: red;
+}
