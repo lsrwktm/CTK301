@@ -1,0 +1,106 @@
+.shyvetica {
+  font-weight: normal;
+  font-family: Helvetica;
+  color: white;
+}
+
+#wrapper {
+  width: 960px;
+  background-color: white;
+  border: 3px solid black;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.bricks {
+  float: left;
+  margin: 20px 20px 20px 0px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.limit {
+  clear: both;
+  font-weight: normal;
+}
+
+header {
+  background-color: black;
+  padding: 1em;
+  margin: 1em;
+  margin-bottom: 0;
+  grid-column: span 12;
+}
+
+body {
+  background-image: url(a62.png);
+}
+
+main h2 {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  margin: auto;
+  font-family: helvetica;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 1em;
+}
+
+nav li {
+display: grid;
+margin-bottom: 10px;
+background-color: red;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: darkred;
+}
+
+main {
+  grid-column: span 9;
+  margin: 1em;
+}
+
+main p {
+  text-align: justify;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+main a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: verdana;
+  border-top: 3px solid black;
+  margin: 0;
+  grid-column: span 12;
+  padding-left: 80px;
+  padding-right: 80px;
+}
