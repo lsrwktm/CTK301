@@ -1,0 +1,132 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 5px solid #5f9e93;
+  padding: 24px;
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  border-radius: 10px;
+}
+
+.dummycolumn {
+  background-color: white;
+}
+
+.right {
+   float: right;
+}
+header {
+  grid-column: span 12;
+  display: inline-block;
+  height: 51px;
+  background-color: white;
+  border: 5px solid #5f9e93;
+  border-radius: 10px;
+}
+  nav {
+    grid-column: span 12;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  nav li {
+    margin-bottom: 24px;
+    display: inline-block;
+  }
+
+  nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #5f9e93;
+    padding: 12px;
+    font-size: 24px;
+    font-family: rooney-web, serif;
+    font-style: normal;
+    font-weight: 500;
+    transition: background-color 1.0s;
+  }
+
+  nav li a:hover {
+  background-color: #3a5c56;
+
+}
+
+#meee {
+  grid-column: span 6;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #5f9e93;
+  border-radius: 10px;
+}
+
+#description {
+  grid-column: span 6;
+  padding: 115px 25px;
+  text-align: center;
+  width: 80%;
+  background-color: white;
+  margin-top: 50px;
+  border: 5px solid #5f9e93;
+  border-radius: 10px;
+}
+
+footer {
+  grid-column: span 12;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: white;
+  width: 1200px;
+  height: 275px;
+  border: 5px solid #5f9e93;
+  border-radius: 10px;
+  style-type: none;
+}
+
+.name  {
+  grid-column: span 12;
+  margin-left: auto;
+  margin-right: auto;
+ padding-left: 250px;
+ padding-right: 250px;
+ padding-top: 24px;
+}
+
+.socials {
+style-type: none;
+ text-align: center;
+  padding-top: 12px;
+  text-decoration: none;
+  color: lightblue;
+  font-family: rooney-web, serif;
+}
+
+
+footer a:link {
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+#httyd {
+    grid-column: span 6;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #5f9e93;
+    border-radius: 30px;
+}
